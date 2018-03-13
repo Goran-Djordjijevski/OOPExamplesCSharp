@@ -10,7 +10,7 @@ namespace OOPExamplesCSharp
     {
         static void Main(string[] args)
         {
-            var computer = new Desktop(name: "Generic Computer");
+            var computer = new Desktop(name: "Generic Computer", caseType: CaseType.Tower);
 
             Console.WriteLine($"Computer type - {computer.GetType().Name}");
 
@@ -19,6 +19,7 @@ namespace OOPExamplesCSharp
             Console.WriteLine($"Is computer - {isComputer}");
 
             Console.WriteLine($"The name of the computer is - {computer.Name}");
+            Console.WriteLine($"The name of the computer case is - {computer.CaseType}");
 
             computer.TogglePower();
             Console.WriteLine($"Computer is on - {computer.IsOn}");
