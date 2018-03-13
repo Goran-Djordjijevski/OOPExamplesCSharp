@@ -32,7 +32,7 @@ namespace OOPExamplesCSharp
             IsOn = false;
         }
 
-        public void TogglePower()
+        public virtual void TogglePower()
         {
             if (IsOn == true)
             {
