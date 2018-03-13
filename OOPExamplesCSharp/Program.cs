@@ -10,6 +10,15 @@ namespace OOPExamplesCSharp
     {
         static void Main(string[] args)
         {
+            var computer = new Computer();
+
+            Console.WriteLine($"Computer type - {computer.GetType().Name}");
+
+            var isComputer = computer is Computer;
+
+            Console.WriteLine($"Is computer - {isComputer}");
+
+            Console.ReadLine();
         }
     }
 }
