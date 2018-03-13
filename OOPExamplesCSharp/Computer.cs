@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPExamplesCSharp
 {
-    public class Computer
+    public abstract class Computer
     {
         private string name = "Unknown";
         public bool IsOn { get; private set; }

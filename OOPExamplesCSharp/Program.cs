@@ -10,7 +10,7 @@ namespace OOPExamplesCSharp
     {
         static void Main(string[] args)
         {
-            var computer = new Computer(name: "Generic Computer");
+            var computer = new Desktop(name: "Generic Computer");
 
             Console.WriteLine($"Computer type - {computer.GetType().Name}");
 
